@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand text-primary fw-bold" href="#top">Adi Nurrahman</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#profile">Profile</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile" class="section py-5">
+        <div class="container">
+            <h1 class="text-center mb-5">Profile</h1>
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-4 text-center">
+                    <img src="content/fotoProfile/profile.jpg" alt="Profile Picture" class="rounded-circle img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <h2 class="mb-3">ADI NURRAHMAN</h2>
+                    <p class="lead">Full Stack Software Engineer with 8+ years of experience in .NET, Golang, and AWS Cloud development. Specializing in backend systems, API development, and cloud infrastructure.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section py-5 bg-light">
+        <div class="container">
+            <h1 class="text-center mb-5">Skills</h1>
+            <div class="row g-4">
+                <!-- Programming Languages -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="fas fa-code fa-3x text-primary mb-3"></i>
+                            <h3 class="card-title">Programming Languages</h3>
+                            <div class="skills-list">
+                                <span class="badge bg-primary mb-2">C#</span>
+                                <span class="badge bg-primary mb-2">Golang</span>
+                                <span class="badge bg-primary mb-2">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Frameworks -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="fas fa-layer-group fa-3x text-primary mb-3"></i>
+                            <h3 class="card-title">Frameworks</h3>
+                            <div class="skills-list">
+                                <span class="badge bg-primary mb-2">ASP.NET MVC</span>
+                                <span class="badge bg-primary mb-2">.NET Core</span>
+                                <span class="badge bg-primary mb-2">NodeJS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Development Tools -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="fas fa-tools fa-3x text-primary mb-3"></i>
+                            <h3 class="card-title">Development Tools</h3>
+                            <div class="skills-list">
+                                <span class="badge bg-primary mb-2">Visual Studio</span>
+                                <span class="badge bg-primary mb-2">VS Code</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Version Control -->
+                <div class="col-md-6">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="fas fa-code-branch fa-3x text-primary mb-3"></i>
+                            <h3 class="card-title">Version Control</h3>
+                            <div class="skills-list">
+                                <span class="badge bg-primary mb-2">TFS</span>
+                                <span class="badge bg-primary mb-2">GIT</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cloud Platform -->
+                <div class="col-md-6">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="fas fa-cloud fa-3x text-primary mb-3"></i>
+                            <h3 class="card-title">Cloud Platform</h3>
+                            <div class="skills-list">
+                                <span class="badge bg-primary mb-2">AWS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section py-5">
+        <div class="container">
+            <h1 class="text-center mb-5">Experience</h1>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <!-- Current Job -->
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body">
+                            <h3 class="card-title text-primary">Software Engineer</h3>
+                            <h6 class="card-subtitle mb-2 text-muted">PT Berlian Sistem Informasi</h6>
+                            <p class="text-muted">July 2023 - Present</p>
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Maintenance existing web applications</li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Bug fixing</li>
+                                <li><i class="fas fa-check-circle text-primary me-2"></i>Operation Support</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Previous Jobs -->
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body">
+                            <h3 class="card-title text-primary">.NET Developer</h3>
+                            <h6 class="card-subtitle mb-2 text-muted">PT Indo Online Mitra Usaha</h6>
+                            <p class="text-muted">March 2023 - June 2023</p>
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Maintenance existing web applications</li>
+                                <li><i class="fas fa-check-circle text-primary me-2"></i>Bug fixing</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body">
+                            <h3 class="card-title text-primary">Software Developer Backend</h3>
+                            <h6 class="card-subtitle mb-2 text-muted">Xtremax Indonesia</h6>
+                            <p class="text-muted">July 2022 - January 2023</p>
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Backend development for Nimvio Project</li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Create function lambda</li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Move configuration from AWS stack to CloudFormation template</li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Bug investigation</li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Research Typescript</li>
+                                <li><i class="fas fa-check-circle text-primary me-2"></i>Refactoring code NodeJS</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body">
+                            <h3 class="card-title text-primary">Backend Developer</h3>
+                            <h6 class="card-subtitle mb-2 text-muted">PT. SiCepat Ekspres Indonesia</h6>
+                            <p class="text-muted">September 2021 - June 2022</p>
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Backend development for Clodeo Project</li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Maintenance backend side</li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Bug fixing</li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Part of rebuild Clodeo app from .NET to Golang team</li>
+                                <li><i class="fas fa-check-circle text-primary me-2"></i>Create GraphQL end Point</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body">
+                            <h3 class="card-title text-primary">Software Engineer .NET</h3>
+                            <h6 class="card-subtitle mb-2 text-muted">Safepedia Global Teknologi</h6>
+                            <p class="text-muted">January 2019 - September 2021</p>
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Full stack development for Safepedia HSE System</li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Create new Module</li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Bug Fixing</li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Maintenance</li>
+                                <li><i class="fas fa-check-circle text-primary me-2"></i>Create Rest API for mobile</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body">
+                            <h3 class="card-title text-primary">Software Engineer .NET</h3>
+                            <h6 class="card-subtitle mb-2 text-muted">PT. Xsis Mitra Utama</h6>
+                            <p class="text-muted">January 2016 - December 2018</p>
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Software development for client</li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Bug fixing</li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Maintenance code and query</li>
+                                <li><i class="fas fa-check-circle text-primary me-2"></i>Create new feature</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section py-5 bg-light">
+        <div class="container">
+            <h1 class="text-center mb-5">Portfolio</h1>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div id="portfolioCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <!-- Carousel Indicators -->
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="0" class="active"></button>
+                            <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="2"></button>
+                            <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="3"></button>
+                            <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="4"></button>
+                            <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="5"></button>
+                        </div>
+
+                        <!-- Carousel Items -->
+                        <div class="carousel-inner rounded shadow">
+                            <div class="carousel-item active">
+                                <img src="content/portfolio/Picture1.png" class="d-block w-100" alt="Project 1">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h3>Safepedia HSE System</h3>
+                                    <p>Sistem Informasi HSE untuk perusahaan</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="content/portfolio/Picture2.png" class="d-block w-100" alt="Project 2">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h3>Safepedia HSE System</h3>
+                                    <p>Sistem Informasi HSE untuk perusahaan</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="content/portfolio/Picture3.png" class="d-block w-100" alt="Project 3">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h3>Safepedia HSE System</h3>
+                                    <p>Sistem Informasi HSE untuk perusahaan</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="content/portfolio/Picture4.jpg" class="d-block w-100" alt="Project 4">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h3>Clodeo</h3>
+                                    <p>Sistem Informasi Pengelolaan Data Pengiriman Barang</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="content/portfolio/Picture5.png" class="d-block w-100" alt="Project 5">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h3>Nimvio</h3>
+                                    <p>Sistem Pengelolaan Kontent (CMS)</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="content/portfolio/Picture6.png" class="d-block w-100" alt="Project 6">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h3>Nimvio</h3>
+                                    <p>Sistem Pengelolaan Kontent (CMS)</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Carousel Controls -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section py-5">
+        <div class="container">
+            <h1 class="text-center mb-5">Contact</h1>
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fas fa-envelope fa-2x text-primary me-3"></i>
+                                <p class="mb-0">adinurr@gmail.com</p>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fas fa-phone fa-2x text-primary me-3"></i>
+                                <p class="mb-0">+62 812 9605 4117</p>
+                            </div>
+                            <div class="d-flex align-items-center mb-4">
+                                <i class="fas fa-map-marker-alt fa-2x text-primary me-3"></i>
+                                <p class="mb-0">Indonesia</p>
+                            </div>
+                            <hr>
+                            <h5 class="mb-3">Connect with me</h5>
+                            <div class="social-links d-flex justify-content-center gap-3">
+                                <a href="https://linkedin.com/in/adi-nurrahman" class="text-primary" title="LinkedIn">
+                                    <i class="fab fa-linkedin fa-2x"></i>
+                                </a>
+                                <a href="https://github.com/Adin05" class="text-primary" title="GitHub">
+                                    <i class="fab fa-github fa-2x"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="card shadow-sm">
+                        <div class="card-body text-center">
+                            <h3 class="mb-4">Get in Touch</h3>
+                            <p class="mb-4">Feel free to reach out to me directly via email</p>
+                            <a href="mailto:adinurr@gmail.com" class="btn btn-primary btn-lg">
+                                <i class="fas fa-envelope me-2"></i>Send Email
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-light py-4">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2025 Adi Nurrahman. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 

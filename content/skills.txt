@@ -1,0 +1,5 @@
+Programming Language: C#, Golang, JavaScript
+Framework: ASP.NET MVC, .NET Core, NodeJS
+Tools: Visual Studio, VS Code
+Version Control: TFS, GIT
+Cloud Platform: AWS

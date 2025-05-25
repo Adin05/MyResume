@@ -1,0 +1,37 @@
+Software Engineer at PT Berlian Sistem Informasi, July 2023 - Present.
+Job Description:
+1. Maintenance existing web applications
+2. Bug fixing
+3. Operation Support
+.NET Developer at PT Indo Online Mitra Usaha, March 2023 - Jun 2023.
+Job Description:
+4. Maintenance existing web applications
+5. Bug fixing
+Software Developer Backend at Xtremax Indonesia, July 2022 - January 2023.
+Job Description:
+1. Backend development for Nimvio Project 
+2. Create function lambda
+3. Move configuration from AWS stack to CloudFormation template
+4. Bug investigation
+5. Research Typescript
+6. Refactoring code NodeJS
+Backend Developer at PT. SiCepat Ekspres Indonesia, September 2021 - June 2022.
+Job Description:
+1. Backend development for Clodeo Project
+2. Maintenance backend side
+3. Bug fixing
+4. Part of rebuild Clodeo app from .NET to Golang team
+5. Create GraphQL end Point
+Software Engineer .NET at Safepedia Global Teknologi, January 2019 - September 2021.
+Job Description:
+1. Full stack development for Safepedia HSE System
+2. Create new Module
+3. Bug Fixing
+4. Maintenance 
+5. Create Rest API for mobile
+Software Engineer .NET as PT. Xsis Mitra Utama, January 2016 - December 2018.
+Job Description:
+1. Software development for client
+2. Bug fixing
+3. Maintenance code and query
+4. Create new feature
