@@ -1,32 +1,40 @@
-// Initialize Bootstrap components
+// Initialize components
 document.addEventListener('DOMContentLoaded', function() {
-    // Initialize Bootstrap's navbar collapse
-    var navbarToggler = document.querySelector('.navbar-toggler');
-    var navbarCollapse = document.querySelector('.navbar-collapse');
+    // Navbar components
+    const navbar = document.querySelector('.navbar');
+    const navbarToggler = document.querySelector('.navbar-toggler');
+    const navbarCollapse = document.querySelector('.navbar-collapse');
     
     // Handle navbar collapse
     if (navbarToggler && navbarCollapse) {
         navbarToggler.addEventListener('click', function() {
             navbarCollapse.classList.toggle('show');
+            // Adding solid background if menu is opened while at the top
+            if (window.scrollY < 50) {
+                navbar.classList.toggle('scrolled');
+            }
         });
 
         // Close navbar when clicking outside
         document.addEventListener('click', function(event) {
-            if (!navbarCollapse.contains(event.target) && !navbarToggler.contains(event.target)) {
+            if (!navbar.contains(event.target)) {
                 navbarCollapse.classList.remove('show');
             }
         });
     }
 
-    // Smooth scrolling for all anchor links
+    // Smooth scrolling for navigation links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function(e) {
             e.preventDefault();
             const targetId = this.getAttribute('href');
+            
+            if (targetId === '#') return;
+            
             const targetElement = targetId === '#top' ? document.body : document.querySelector(targetId);
             
             if (targetElement) {
-                const navbarHeight = document.querySelector('.navbar').offsetHeight;
+                const navbarHeight = 80; // approximate height
                 const targetPosition = targetId === '#top' ? 0 : targetElement.offsetTop - navbarHeight;
                 
                 window.scrollTo({
@@ -42,47 +50,51 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Form submission
-    const contactForm = document.querySelector('.contact-form');
+    // Form submission simulation
+    const contactForm = document.querySelector('form');
     if (contactForm) {
         contactForm.addEventListener('submit', (e) => {
             e.preventDefault();
-            // Here you would typically handle the form submission
-            // For now, we'll just show an alert
-            alert('Thank you for your message! This is a demo form.');
-            contactForm.reset();
+            const btn = contactForm.querySelector('button[type="button"]');
+            if (btn) {
+                const originalText = btn.innerHTML;
+                btn.innerHTML = 'Sending... <i class="fas fa-spinner fa-spin ms-2"></i>';
+                btn.disabled = true;
+                
+                setTimeout(() => {
+                    btn.innerHTML = 'Sent Successfully! <i class="fas fa-check ms-2"></i>';
+                    btn.classList.add('btn-success');
+                    btn.classList.remove('btn-primary');
+                    contactForm.reset();
+                    
+                    setTimeout(() => {
+                        btn.innerHTML = originalText;
+                        btn.disabled = false;
+                        btn.classList.remove('btn-success');
+                        btn.classList.add('btn-primary');
+                    }, 3000);
+                }, 1500);
+            }
         });
+        
+        // Handle the button click specifically since we used type="button" in HTML
+        const submitBtn = contactForm.querySelector('button[type="button"]');
+        if (submitBtn) {
+            submitBtn.addEventListener('click', () => {
+                contactForm.dispatchEvent(new Event('submit', { cancelable: true }));
+            });
+        }
     }
 
     // Change navbar background on scroll
     window.addEventListener('scroll', function() {
-        const navbar = document.querySelector('.navbar');
         if (window.scrollY > 50) {
-            navbar.classList.add('bg-white', 'shadow-sm');
-            navbar.classList.remove('bg-transparent');
+            navbar.classList.add('scrolled');
         } else {
-            navbar.classList.remove('bg-white', 'shadow-sm');
-            navbar.classList.add('bg-transparent');
+            // Only remove if menu is not open
+            if (!navbarCollapse.classList.contains('show')) {
+                navbar.classList.remove('scrolled');
+            }
         }
     });
-
-    // Animate elements when they come into view
-    const observerOptions = {
-        root: null,
-        rootMargin: '0px',
-        threshold: 0.1
-    };
-
-    const observer = new IntersectionObserver((entries, observer) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('animate__animated', 'animate__fadeIn');
-                observer.unobserve(entry.target);
-            }
-        });
-    }, observerOptions);
-
-    document.querySelectorAll('.section').forEach(section => {
-        observer.observe(section);
-    });
-}); 
+});
