@@ -1,0 +1,8 @@
+Activity Tracker
+	is a website for tracking daily activities that can be customized to fit personal needs. It also includes a dedicated weight logging feature and a weight progress chart. I use it to monitor weight-loss progress and stay on top of my daily habits.
+
+Video Kids
+	is a platform for managing what children watch, with the main focus on preventing videos from being skipped or changed during a set time period. Parents can control the playback duration to help children finish content one by one instead of jumping around.
+
+Ojek Online
+	is an online ride-hailing platform for motorbikes and cars, where drivers set their own per-kilometer pricing and keep 100% of the fare from customers. Customers can also choose their own driver, vehicle type, and fare based on the driver's pricing. Payments are made directly from the customer to the driver, with a monthly SaaS model for drivers.

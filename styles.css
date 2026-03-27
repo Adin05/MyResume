@@ -346,6 +346,20 @@ a {
     letter-spacing: 0.08em;
 }
 
+.product-visual {
+    overflow: hidden;
+    border-radius: 1rem;
+    box-shadow: var(--shadow-md);
+    background: #e2e8f0;
+}
+
+.product-image {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+
 /* Timeline/Experience */
 .timeline-container { padding-left: 2rem; }
 .timeline-line {
@@ -503,6 +517,9 @@ a {
     .floating-icon {
         width: 28px;
         height: 28px;
+    }
+    .product-image {
+        height: 200px;
     }
     .timeline-container { padding-left: 1rem; }
     .timeline-line { left: 10px; }
