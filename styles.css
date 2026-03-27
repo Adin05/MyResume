@@ -112,6 +112,22 @@ a {
     padding-bottom: 0.5rem !important;
 }
 
+.navbar-brand {
+    text-decoration: none;
+}
+
+.brand-logo {
+    width: 42px;
+    height: 42px;
+    display: block;
+    border-radius: 12px;
+    box-shadow: var(--shadow-sm);
+}
+
+.brand-name {
+    line-height: 1;
+}
+
 .navbar-nav .nav-link {
     color: var(--text-main);
     padding: 0.5rem 1rem;
@@ -227,6 +243,12 @@ a {
     align-items: center;
     justify-content: center;
     animation: float-icon 4s infinite alternate ease-in-out;
+}
+
+.floating-icon {
+    width: 32px;
+    height: 32px;
+    display: block;
 }
 
 .badge-1 { top: 10%; left: -20px; animation-delay: 0s; }
@@ -473,6 +495,14 @@ a {
     }
     .hero-section h1 {
         font-size: 2.8rem;
+    }
+    .brand-logo {
+        width: 36px;
+        height: 36px;
+    }
+    .floating-icon {
+        width: 28px;
+        height: 28px;
     }
     .timeline-container { padding-left: 1rem; }
     .timeline-line { left: 10px; }
