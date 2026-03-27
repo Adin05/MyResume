@@ -128,6 +128,10 @@ a {
     line-height: 1;
 }
 
+.lang-toggle {
+    min-width: 68px;
+}
+
 .navbar-nav .nav-link {
     color: var(--text-main);
     padding: 0.5rem 1rem;
@@ -513,6 +517,9 @@ a {
     .brand-logo {
         width: 36px;
         height: 36px;
+    }
+    .lang-toggle {
+        width: 100%;
     }
     .floating-icon {
         width: 28px;

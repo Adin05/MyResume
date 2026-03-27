@@ -40,6 +40,9 @@
                     <li class="nav-item"><a class="nav-link" href="#vibe-products">AI Products</a></li>
                     <li class="nav-item"><a class="nav-link" href="#portfolio">Works</a></li>
                     <li class="nav-item ms-lg-2"><a class="nav-link btn btn-primary text-white px-4 rounded-pill shadow-sm hover-lift" href="#contact">Let's Talk</a></li>
+                    <li class="nav-item ms-lg-2">
+                        <button type="button" id="langToggle" class="btn btn-outline-dark rounded-pill px-4 py-2 fw-semibold lang-toggle">ID</button>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -579,17 +582,7 @@
             offset: 50,
             duration: 800
         });
-
-        // Typing Effect
-        var typed = new Typed('.typing-text', {
-            strings: ['Full Stack Engineer', 'AI Product Builder', 'Vibe Coder'],
-            typeSpeed: 50,
-            backSpeed: 30,
-            backDelay: 2000,
-            loop: true,
-            showCursor: true,
-            cursorChar: '|'
-        });
+        window.initLanguageSwitcher?.();
     </script>
 </body>
 </html>
