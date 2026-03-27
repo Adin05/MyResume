@@ -1,6 +1,7 @@
 Programming Language: C#, Golang, JavaScript
 Framework: ASP.NET MVC, .NET, NodeJS
-Tools: Visual Studio, VS Code
+AI & Vibe Coding: AI Product Builder, Vibe Coding, Rapid Prototyping
+Tools: Visual Studio, VS Code, Cursor, Antigravity
 Version Control: TFS, GIT
 Cloud Platform: AWS, Firebase
 Database: SQL Server, PostgreSQL
