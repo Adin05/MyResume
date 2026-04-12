@@ -72,19 +72,21 @@ const LANGUAGE_COPY = {
             label: "What I'm Building",
             heading: 'AI & Vibe Coding Products',
             intro: 'I enjoy using AI-assisted workflows and vibe coding to validate ideas quickly, turn concepts into working MVPs, and iterate toward products people can actually use.',
-            chips: ['AI Workflow', 'Rapid MVP', 'Live Product'],
-            titles: ['Activity Tracker', 'VideoKids', 'Ojek Online App'],
+            chips: ['AI Workflow', 'Rapid MVP', 'Live Product', 'Community Organizer'],
+            titles: ['Activity Tracker', 'VideoKids', 'Ojek Online App', 'Mabar App'],
             descriptions: [
                 'A customizable daily activity checklist website with a dedicated weight logging feature and progress chart. I use it to track weight-loss progress and stay in control of my daily habits.',
                 'A platform for managing what children watch, focused on preventing videos from being skipped or changed during a set time period. Parents can control playback duration to help children finish content one by one.',
-                'An online ride-hailing platform for motorbikes and cars, where drivers set their own per-kilometer pricing and customers can choose the driver, vehicle type, and fare that fit their needs.'
+                'An online ride-hailing platform for motorbikes and cars, where drivers set their own per-kilometer pricing and customers can choose the driver, vehicle type, and fare that fit their needs.',
+                'A complete platform designed to help sports mabar hosts automatically arrange balanced games. Key MVP features include a fair team generator based on player classes, tournament bracket visualization, and offline capability using LocalStorage.'
             ],
             tags: [
                 ['Activity Tracking', 'Weight Log', 'Progress Chart'],
                 ['Parent Control', 'Timed Playback', 'Child Safety'],
-                ['Ride Booking', 'Driver Pricing', 'SaaS Model']
+                ['Ride Booking', 'Driver Pricing', 'SaaS Model'],
+                ['Team Generator', 'Tournament Bracket', 'Offline Ready']
             ],
-            buttons: ['Open Product', 'Open Product', 'Open Product']
+            buttons: ['Open Product', 'Open Product', 'Open Product', 'Open Product']
         },
         portfolio: {
             label: 'Recent Works',
@@ -182,19 +184,21 @@ const LANGUAGE_COPY = {
             label: 'Yang Saya Bangun',
             heading: 'Produk AI & Vibe Coding',
             intro: 'Saya menggunakan workflow berbasis AI dan vibe coding untuk memvalidasi ide dengan cepat, mengubah konsep menjadi MVP, dan terus mengiterasi produk yang benar-benar bisa dipakai.',
-            chips: ['Alur AI', 'MVP Cepat', 'Produk Langsung'],
-            titles: ['Activity Tracker', 'VideoKids', 'Ojek Online App'],
+            chips: ['Alur AI', 'MVP Cepat', 'Produk Langsung', 'Pengelola Komunitas'],
+            titles: ['Activity Tracker', 'VideoKids', 'Ojek Online App', 'Mabar App'],
             descriptions: [
                 'Website ceklis aktivitas harian yang bisa disesuaikan sendiri, lengkap dengan fitur pencatatan berat badan dan grafik progress untuk membantu kontrol penurunan berat badan dan aktivitas.',
                 'Platform untuk mengatur tontonan anak dengan fokus mencegah video dipindah-pindah selama periode tertentu. Orang tua bisa mengatur durasi pemutaran agar anak menonton secara berurutan.',
-                'Platform pesan ojek motor dan mobil online, di mana driver mengatur tarif per kilometer sendiri dan customer bisa memilih driver, jenis kendaraan, serta tarif yang sesuai.'
+                'Platform pesan ojek motor dan mobil online, di mana driver mengatur tarif per kilometer sendiri dan customer bisa memilih driver, jenis kendaraan, serta tarif yang sesuai.',
+                'Platform yang dirancang khusus untuk membantu admin (host) mabar olahraga mengatur keseimbangan tim secara otomatis. Fitur MVP utamanya adalah generator tim yang seimbang berdasarkan kelas pemain, visualisasi bagan turnamen, serta fitur luring (LocalStorage).'
             ],
             tags: [
                 ['Pelacakan Aktivitas', 'Catatan Berat', 'Grafik Progress'],
                 ['Kontrol Orang Tua', 'Pemutaran Terjadwal', 'Keamanan Anak'],
-                ['Pemesanan Ojek', 'Tarif Driver', 'Model SaaS']
+                ['Pemesanan Ojek', 'Tarif Driver', 'Model SaaS'],
+                ['Generator Tim', 'Bagan Turnamen', 'Offline Ready']
             ],
-            buttons: ['Buka Produk', 'Buka Produk', 'Buka Produk']
+            buttons: ['Buka Produk', 'Buka Produk', 'Buka Produk', 'Buka Produk']
         },
         portfolio: {
             label: 'Proyek Terbaru',
